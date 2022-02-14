@@ -4,9 +4,9 @@ namespace Task_1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
-            int[] studentScores = { 60, 65, 50, 25, 90, 100, 100, 30, 0, 45, 80};
+            int[] studentScores = { 60, 65, 50, 25, 90, 100, 100, 30, 0, 45, 80}; //studentScores uda ref ile cagiriram bunda
             
             SumofScores(ref studentScores);            
         }
